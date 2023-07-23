@@ -3,14 +3,15 @@
 .progress-bar {
   display: block;
   width: 100%;
-  height: 8px;
+  padding-top: 1px;
+  height: 4px;
   position: fixed;
   z-index: 50;
   background: linear-gradient(to right, rgb(128, 83, 0) var(--scroll), transparent 0);
   background-repeat: no-repeat;
 }
 .progress-bar.horizontal.top {
-  top: 5rem;
+  top: 4.5rem;
   left: 0;
 }
 /* .progress-bar.horizontal.bottom {
@@ -88,6 +89,8 @@ html{
     display: flex;
     z-index: 9999;
     width: 100vw;
+    height: 5vw;
+    background: radial-gradient(circle at 70% 90%, rgb(0,0,10) 10%, rgb(0, 0, 0) 100%);
 
 }
 #navbar::before{
@@ -111,6 +114,7 @@ html{
     height: 5rem;
     width: 28vw;
     display: flex;
+    height : 5vw;
     /* border: 3px solid white; */
     justify-content: center;
 }
@@ -129,7 +133,7 @@ html{
     /* border-radius: 50px; */
 }
 .Team-Name{
-    height: 5rem;
+    height: 4rem;
     width: 15vw;
 }
 .Team-Name img{
@@ -667,8 +671,9 @@ body {
 }
 
 .modelimg img{
-    width: 35vw;
-    height: 65vh;
+    width: 50vw;
+    height: 50vh;
+    padding-right: 6vw;
 }
 .listitem{
     width: 45vw;
