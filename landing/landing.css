@@ -64,6 +64,9 @@
     margin: 0px;
     padding: 0px;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 body{
     width: 100vw;
     overflow-x: hidden;
